@@ -1,0 +1,54 @@
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(16, 16, 76)
+}
+
+
+header{ 
+    background-color: rgb(201, 201, 201);
+    height: 120px;   
+}
+
+main {
+    margin: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    background-color: rgb(219, 219, 219);
+    height: 80px;   
+}
+
+
+
+#grid{
+    display: flex;
+    width:  900px;
+    height: 900px;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: calc(900px / 10);
+    height: calc(900px / 10);
+    background-color: rgb(153, 245, 214);
+    border: 2px solid whitesmoke;
+}
+
+.clicked_cell{
+    background-color: rgb(52, 138, 243);
+}
+
+#play_btn{
+    border-radius: 15%;
+}
