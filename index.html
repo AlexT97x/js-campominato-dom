@@ -9,19 +9,29 @@
         <script defer src="./script/script.js"></script>
     </head>
     <body>
+        <div class="container">
+            <header>
+                <div>
+                    <h4>difficulty level</h4>
+                    <select name="difficulty_level" id="difficulty_level">
+                        <option value="0">Facile</option>
+                        <option value="1">Normale</option>
+                        <option value="2">Difficile</option>
+                    </select>
+                </div>
+                <div class="button_play">
+                    <button id="btn">Play!</button>
+                </div>
+            </header>
+     
+            <div id="score_info"></div>
+           
+            <main>
+                <div id="grid"></div>
+            </main>
+            
+        </div>
 
-        <header>
-            <div class="logo"></div>
-            <button id="play_btn">Play</button>
-        </header>
-    
-        <main>
-            <div id="grid"></div>
-        </main>
-       
-        <footer>
-            <span>Made with by <a href="#">Boolean</a></span>
-        </footer>
 
     </body>
 </html>
